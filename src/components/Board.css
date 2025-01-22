@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000; /* רקע שחור */
+  color: white; /* טקסט לבן */
+  font-family: Arial, sans-serif;
+  flex-direction: column; /* מאפשר סידור אנכי של האלמנטים */
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 60px);
+  gap: 5px;
+  margin-bottom: 20px; /* רווח מתחת ללוח המשחק */
+}
+
+.status {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.square {
+  width: 60px;
+  height: 60px;
+  background-color: #fff;
+  border: 1px solid #000;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.restart-button {
+  display: block;
+  margin: 0 auto; /* מרכז את הכפתור */
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
