@@ -5,17 +5,17 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #000; /* רקע שחור */
-  color: white; /* טקסט לבן */
+  background-color: #000;
+  color: white;
   font-family: Arial, sans-serif;
-  flex-direction: column; /* מאפשר סידור אנכי של האלמנטים */
+  flex-direction: column; 
 }
 
 .board {
   display: grid;
   grid-template-columns: repeat(3, 60px);
   gap: 5px;
-  margin-bottom: 20px; /* רווח מתחת ללוח המשחק */
+  margin-bottom: 20px;
 }
 
 .status {
